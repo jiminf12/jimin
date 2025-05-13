@@ -1,0 +1,73 @@
+/* style.css */
+
+/* 전체 기본 설정 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* 헤더 제목 */
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 2px solid #000;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+/* 네비게이션 바 */
+nav {
+  margin: 15px 0;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1a4db3;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #003399;
+}
+
+/* 본문 영역 */
+main {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* 링크 스타일 */
+a {
+  color: #1a4db3;
+}
+
+a:hover {
+  color: #003399;
+}
+
+/* 이미지 스타일 */
+img {
+  border-radius: 50%;
+  margin: 20px 0;
+}
